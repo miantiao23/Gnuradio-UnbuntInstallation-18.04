@@ -1,5 +1,5 @@
 
-The official website of Ettus (https://kb.ettus.com/Building_and_Installing_the_USRP_Open-Source_Toolchain_(UHD_and_GNU_Radio)_on_Linux) 
+The official website of Ettus [(https://kb.ettus.com/Building_and_Installing_the_USRP_Open-Source_Toolchain_(UHD_and_GNU_Radio)_on_Linux)] 
 provide a relatively guide for the users to install the dependencies of GNU radio. But it still has many bugs you have to be careful to
 avoid stucking on some step. 
 
