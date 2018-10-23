@@ -1,4 +1,4 @@
-# Gnuradio-UnbuntInstallation-18.04-
+# Gnuradio-UnbuntInstallation-18.04
 I updated the ubuntu system from 16.04(LST) to 18.04 (LST). But it occured a issue that the Gnuradio software cannot use in updated environment. 
 
 
