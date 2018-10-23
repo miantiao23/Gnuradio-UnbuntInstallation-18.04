@@ -45,8 +45,20 @@ Next, run Make to build GNU Radio.
    make
 ``` 
 ```ruby
-There you will find some problem.
+There you will find some problems. When you make these files, you will find there occurs a lot of warnings and errors.
+error: #error This file requires compiler and library support for the ISO C++ 2011 standard. This support is currently experimental, and must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
 ```
+You need to add 
+```
+SET(CMAKE_CXX_FLAGS "-std=c++11 -O3")
+```
+Or
+```
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+
+```
+at the first line of your CMakeList.txt in the file directory.
+
 Next, you can optionally run some basic tests to verify that the build process completed properly.
 ```   
    make test
