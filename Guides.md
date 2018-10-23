@@ -43,7 +43,10 @@ Next, invoke CMake to create the Makefiles.
 Next, run Make to build GNU Radio.
 ```   
    make
-```   
+``` 
+```ruby
+There you will find some problem.
+```
 Next, you can optionally run some basic tests to verify that the build process completed properly.
 ```   
    make test
