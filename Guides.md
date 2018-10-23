@@ -55,7 +55,6 @@ SET(CMAKE_CXX_FLAGS "-std=c++11 -O3")
 Or
 ```
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
-
 ```
 at the first line of your `CMakeList.txt` in the file directory.
 
