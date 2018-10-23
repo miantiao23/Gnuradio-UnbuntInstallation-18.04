@@ -6,7 +6,3 @@ I tried to used the original version from GNU raido official website. However it
 I tried to updated the installation from the GNU radio official installation guide. It didn't work. A lot of dependencies are missing. 
 The most impressive dependency is 'thrift', I tried many ways to install this module, it still could not work anymore. 
 Many guide installations are also not good for beginners, just like me. 
-
-````
-12312313
-````
